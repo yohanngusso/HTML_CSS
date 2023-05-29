@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-image: url("fundo_netflix.jpg");
+        background-size: cover;
+        background-position: top center;
+    }
+
+    body::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Cor do overlay */
+        z-index: -1;
+    }
+
+    #heading {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #heading div {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        /*
+        margin é a mesma coisa que o padding: topo, direita, embaixo, esquerda.
+        Se colocar 2 significa: topo & embaixo, direita & esquerda
+        */
+        margin: 0 auto;
+    }
+
+    #heading .h1 {
+        /*
+        Um jeito de fazer é assim
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-bottom: 15px;*/
+        /*
+        padding direto é assim:
+        padding: topo, direita, embaixo, esquerda -> no sentido horario
+        padding: 15px 0 0 50px;
+        Se colocar 2 significa: topo & embaixo, direita & esquerda
+                                     15px      , 0
+        */
+        padding: 15px 0;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    #heading a {
+        color: red;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+</style>
+
+<body>
+    <header id="heading">
+        <div>
+            <h1 class="h1">
+                <a href="#">Netflix</a>
+            </h1>
+
+            <h2 class="h1">
+                <a href="#">Netflix</a>
+            </h2>
+        </div>
+    </header>
+</body>
+
+</html>

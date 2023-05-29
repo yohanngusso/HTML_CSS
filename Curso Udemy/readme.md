@@ -88,6 +88,11 @@ apenas colocar "!" na primeira linha
 * ul -> lista de itens sem orgem rígida
 * li -> representa um item que faz parte de uma lista
 * ol -> lista ordenada -> numeros inves de bolinhas
+* aside -> seção de um página -> mais utilizado em conjunto com a tag nav para criar uma nav bar na horizontal.
+* header -> estrutura onde possui elementos de cabeçalho mas também outros elementos
+* section -> representa um seção genérica contina em um documento HTML,como um título, quando não existir um elemento semântico mais especifico para representá-lo. <code> QUANDO NÃO TEM UMA COISA SEMÂNTICA PARA FALAR -> QUANDO NÃO TEM COMO DESCREVER ESSE SEÇÃO PODE UTILIZAR SECTION -> Existe o div para isso também muito utilizado até hoje-> AMBOS SÃO CONTAINERS. </code>
+* article -> poderia ser o post de um fórum, um artigo de revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou widget interativos, ou qualquer outra forma de conteúdo independente. -> GERALMENTE PRODUTOS e pode ser feito varias article
+
 
 # Sites para pesquisar sobre qualquer coisa de html
 
@@ -122,6 +127,16 @@ apenas colocar "!" na primeira linha
 * Como chamar com classe?
     - ".nome_da_classe{}"
 * OBS: O id tem hirarquia maior, ou seja, se você colocar uma classe depois de um id, o id vai ser preferência. Mas tem o !importante porém está forçando a colocar a classe.
+
+* width -> largura em px mas pode ser em outras medidas
+
+* height -> altura em px 
+
+* padding -> basicamente é o bloco envolta do seu elemento que pode ser mudado com CSS. Exemplo:
+arquivo "netflix.html" na aula Pensando em HTML e CSS -> linha 17
+
+* display: flex -> para criar colunas
+
 
 # Semântica 
 
