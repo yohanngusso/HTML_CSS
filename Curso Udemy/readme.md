@@ -81,11 +81,17 @@ apenas colocar "!" na primeira linha
 * sup -> para fazer qualquer coisa no exponencial(elevado)
 * q -> citação de algo
 * blockquote -> bloco de citação -> não pode ir dentro do paragrafo! -> Mas pode ter um paragrafo 
-
+* code -> citando code 
+* pre -> tag de texto preformatado, utilizado para colocar codigos em um site
+* span -> conteiner generico inline(em linha para conteúdo fraseado) ->  pode ser utilizada dentro do paragrafo("<p>") -> como é inline não derruba os elementos próximos.
+* div ->  container generio para conteudo de fluxo -> uitilizado para agrupar elementos.
+* ul -> lista de itens sem orgem rígida
+* li -> representa um item que faz parte de uma lista
+* ol -> lista ordenada -> numeros inves de bolinhas
 
 # Sites para pesquisar sobre qualquer coisa de html
 
-* Apenas pesquise: "mdn strong" por exemplo no google vai achar o site: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/strong
+* Apenas pesquise: "mdn strong" por exemplo no google vai achar o site: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/strong -> site muit bom que explica cada tag 
 
 * https://www.w3schools.com/tags/tag_a.asp
 
@@ -123,5 +129,31 @@ apenas colocar "!" na primeira linha
 
 # Display Block & Inline
 
-* Block: basicamente não foi mexido no corpo do elemento não foi utilizado outra tag ou atributo para mudar.
-* Inline: foi modificado colocado outro atributo
+No HTML, os elementos podem ser classificados como elementos de bloco (block elements) ou elementos em linha (inline elements), com base na forma como eles são renderizados na página.
+
+Elementos de bloco:
+
+*Os elementos de bloco começam em uma nova linha e ocupam toda a largura disponível. Eles criam um "bloco" no layout da página.
+
+* Exemplos comuns de elementos de bloco incluem [<div>, <p>, <h1> a <h6>, <ul>, <li>, <table>, <form>], entre outros.
+* Os elementos de bloco podem conter outros elementos de bloco e elementos em linha dentro deles.
+* Eles geralmente são usados para estruturar o conteúdo da página, como seções, parágrafos, cabeçalhos, listas, etc.
+
+Elementos em linha:
+
+* Os elementos em linha não iniciam uma nova linha e ocupam apenas o espaço necessário para o conteúdo dentro deles. Eles fluem junto com outros elementos em linha.
+* Exemplos comuns de elementos em linha incluem [<span>, <a>, <strong>, <em>, <img>, <input>, <button>], entre outros.
+* Os elementos em linha geralmente são usados para aplicar estilos ou marcar partes do texto dentro de um bloco.
+
+É importante notar que a distinção entre elementos de bloco e em linha é feita principalmente para descrever o comportamento padrão desses elementos. No entanto, é possível alterar esse comportamento por meio de estilos CSS. Por exemplo, é possível definir um elemento de bloco para ser exibido como em linha ou vice-versa, usando a propriedade display do CSS.
+
+# Metadados do documento 
+
+* Os metadados são onde se guardam várias informações sobre a página, incluindo informações sobre estilos, scripts e dados para auxiliar software (ferramentas de pesquisa (en-US), navegadores, etc) usar e renderizar a página. 
+
+Link falando sobre: https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element#metadados_do_documento
+
+# Semântica
+
+* Você ta criando um elemento que tem lógica naquele determinado lugar.
+Exemplo: criando um menu, utiliza tag nav com outros elementos
