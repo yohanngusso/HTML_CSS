@@ -83,7 +83,7 @@ apenas colocar "!" na primeira linha
 * blockquote -> bloco de citação -> não pode ir dentro do paragrafo! -> Mas pode ter um paragrafo 
 * code -> citando code 
 * pre -> tag de texto preformatado, utilizado para colocar codigos em um site
-* span -> conteiner generico inline(em linha para conteúdo fraseado) ->  pode ser utilizada dentro do paragrafo("<p>") -> como é inline não derruba os elementos próximos.
+* span -> conteiner generico inline(em linha para conteúdo fraseado) ->  pode ser utilizada dentro do paragrafo("tag <code><p></code>") -> como é inline não derruba os elementos próximos.
 * div ->  container generio para conteudo de fluxo -> uitilizado para agrupar elementos.
 * ul -> lista de itens sem orgem rígida
 * li -> representa um item que faz parte de uma lista
