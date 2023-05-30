@@ -102,6 +102,8 @@ apenas colocar "!" na primeira linha
 
 * Qualificar links externos para o Google: https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links?hl=pt-br
 
+* Para CSS: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model
+
 # Viewport 
 
 * Os navegadores no celular utilizam uma janela virtual(viewport) para renderizar a página, geralmente é maior do que a tela do dispositivo. Então a resolução da viewport pode ser mais larga que a largura do dispositivo. Então a viewport é maior que a tela do dispositivo. Então a Apple produziu essa "metatag"-> viewport falando qual vai ser o tamanho do nosso viewport 
