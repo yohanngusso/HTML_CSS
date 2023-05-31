@@ -87,7 +87,8 @@ apenas colocar "!" na primeira linha
 * div ->  container generio para conteudo de fluxo -> uitilizado para agrupar elementos.
 * ul -> lista de itens sem orgem rígida
 * li -> representa um item que faz parte de uma lista
-* ol -> lista ordenada -> numeros inves de bolinhas
+* ol -> lista ordenada -> numeros,letras,numeros romanos, inves de bolinhas
+* dl -> descrição de listas -> dt(termo) -> dd(descrição)
 * aside -> seção de um página -> mais utilizado em conjunto com a tag nav para criar uma nav bar na horizontal.
 * header -> estrutura onde possui elementos de cabeçalho mas também outros elementos
 * section -> representa um seção genérica contina em um documento HTML,como um título, quando não existir um elemento semântico mais especifico para representá-lo. <code> QUANDO NÃO TEM UMA COISA SEMÂNTICA PARA FALAR -> QUANDO NÃO TEM COMO DESCREVER ESSE SEÇÃO PODE UTILIZAR SECTION -> Existe o div para isso também muito utilizado até hoje-> AMBOS SÃO CONTAINERS. </code>
@@ -101,6 +102,8 @@ apenas colocar "!" na primeira linha
 * https://www.w3schools.com/tags/tag_a.asp
 
 * Qualificar links externos para o Google: https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links?hl=pt-br
+
+* https://www.w3schools.com/html/html_lists.asp
 
 * Para CSS: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model
 
@@ -137,7 +140,13 @@ apenas colocar "!" na primeira linha
 * padding -> basicamente é o bloco envolta do seu elemento que pode ser mudado com CSS. Exemplo:
 arquivo "netflix.html" na aula Pensando em HTML e CSS -> linha 17
 
+* border -> borda que esta envolta da padding
+
+* margin -> margem é utilizada para empurrar o meu elemento para longe de outro elemento
+
 * display: flex -> para criar colunas
+
+* Lembrar como funciona os quadrados e os layouts: SENTIDO HORARIO: top(topo),right(direita),bottom(embaixo),left(esquerda)
 
 
 # Semântica 
