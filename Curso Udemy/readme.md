@@ -93,6 +93,8 @@ apenas colocar "!" na primeira linha
 * header -> estrutura onde possui elementos de cabeçalho mas também outros elementos
 * section -> representa um seção genérica contina em um documento HTML,como um título, quando não existir um elemento semântico mais especifico para representá-lo. <code> QUANDO NÃO TEM UMA COISA SEMÂNTICA PARA FALAR -> QUANDO NÃO TEM COMO DESCREVER ESSE SEÇÃO PODE UTILIZAR SECTION -> Existe o div para isso também muito utilizado até hoje-> AMBOS SÃO CONTAINERS. </code>
 * article -> poderia ser o post de um fórum, um artigo de revista ou jornal, um post de um blog, um comentário enviado por um usuário, um gadget ou widget interativos, ou qualquer outra forma de conteúdo independente. -> GERALMENTE PRODUTOS e pode ser feito varias article
+* table -> tabela -> thead(seções) -> tr(linhas) -> th(Colunas onde coloca os titulos)
+* tbody -> corpo da tabela que tem tr e dps especificando as colunas colocando td
 
 
 # Sites para pesquisar sobre qualquer coisa de html
@@ -147,6 +149,8 @@ arquivo "netflix.html" na aula Pensando em HTML e CSS -> linha 17
 * display: flex -> para criar colunas
 
 * Lembrar como funciona os quadrados e os layouts: SENTIDO HORARIO: top(topo),right(direita),bottom(embaixo),left(esquerda)
+
+*  border-collapse: collapse -> une as bordas de colunas de table
 
 
 # Semântica 
