@@ -7,50 +7,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
-
-        table{
-            border-collapse: collapse; 
+        body {
+            font-family: sans-serif;
         }
-        table td, table th{
+
+        table {
+            border-collapse: collapse;
+            width: 800px;
+        }
+
+        table td,
+        table th {
             border: 1px solid #ccc;
             padding: 5px;
         }
 
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        table caption {
+            caption-side: bottom;
+            text-align: left;
+            font-family: italic;
+            font-size: 14px;
+            margin: 5px 0;
+        }
+
+        tfoot td,
+        table th {
+            background: #ddd;
+        }
+
+        tfoot td {
+            font-style: italic;
+        }
     </style>
 </head>
 
 <body>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis iusto dolorem dicta, accusantium voluptate nobis.
-    Natus, blanditiis debitis, optio nemo sequi ad quae minus veniam magnam labore praesentium saepe est?</p>
-    
-    <table>
-        <!--Criação do cabeçalho da tabela-->
-        <thead>
-            <tr>
-                <th>Título 1</th>
-                <th>Título 2</th>
-                <th>Título 3</th>
-            </tr>
-        </thead>
-        <!--Criação do corpo da tabela-->
-        <tbody>
-            <tr>
-                <td>Corpo 1</td>
-                <td>Corpo 2</td>
-                <td>Corpo 3</td>
-            </tr>
-            <tr>
-                <td>Corpo 1</td>
-                <td>Corpo 2</td>
-                <td>Corpo 3</td>
-            </tr>
-            <tr>
-                <td>Corpo 1</td>
-                <td>Corpo 2</td>
-                <td>Corpo 3</td>
-            </tr>
-        </tbody>
-    </table>
+        Natus, blanditiis debitis, optio nemo sequi ad quae minus veniam magnam labore praesentium saepe est?</p>
+    <div class="responsive-table">
+        <table>
+            <!--Criação do cabeçalho da tabela-->
+            <caption>Uma descrição para a tabela</caption>
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                </tr>
+            </thead>
+            <!--Criação do corpo da tabela-->
+            <tbody>
+                <tr>
+                    <td>Corpo 1Corpo 1Corpo 1Corpo 1Corpo 1Corpo 1Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Aqui</td>
+                    <td>Corpo 3</td>
+                </tr>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                    <td>Corpo 3</td>
+                </tr>
+            </tbody>
+            <!--Criação do rodapé-->
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td>Total: R$ 500,00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
 
 </html>
